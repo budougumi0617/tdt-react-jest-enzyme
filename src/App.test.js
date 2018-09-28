@@ -10,8 +10,8 @@ const emptyProps ={
 describe('App', () => {
   describe('App-title', () => {
     const cases = [
-      ['simple test1', { text: 'Jest'}, 'Welecome to Jest'],
-      ['simple test2', { text: 'enzyme'}, 'welcome to enzyme']
+      ['simple test1', { text: 'Jest'}, 'Welcome to Jest'],
+      ['simple test2', { text: 'enzyme'}, 'Welcome to enzyme']
     ];
     describe.each(cases)('change Props', (title, override, expected) => {
        it(title, () => {
